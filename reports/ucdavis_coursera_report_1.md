@@ -1,4 +1,6 @@
 # Assignmnet No. 1
+Daria Skibo
+
 > Coursera | SQL for Data Scientists Capstone Project
 [About the course](https://www.coursera.org/learn/sql-data-science-capstone?specialization=learn-sql-basics-data-science)
 
