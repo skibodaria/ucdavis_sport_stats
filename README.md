@@ -31,7 +31,8 @@ How have athlete demographics, geographic representation, and competitive domina
     * total rows, unique atletes, unique counts of events and sports, unique games and events per season;
     * distribution of athletes across countries, sport disciplines, games;
     * distribution of athletes and medals across countries; contry-level comparison;
-    * descriptive statistics of age, height, weight, participation counts, medal counts across countries, years, gender, sport disciplines.
+    * descriptive statistics of age, height, weight, participation counts, medal counts across countries, years, gender, sport disciplines;
+    * analytical engineering: creating additional fields/metrics (e.g., `medal_per_region` or `change_team`).
 
 * **Step 3. Deep-Dive Analytical Queries**
     * > [PLANNED]
