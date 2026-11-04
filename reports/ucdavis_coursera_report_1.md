@@ -21,7 +21,7 @@ You will document your preparation in developing the project proposal. This incl
 >   * 'Team' string, no null-values; reprsents the country a particular athlete was a team-member of; can change from year to year; dataset has 1184 unique values for teams;
 >   * 'NOC' string, no null-values; stands for "National Olympic Committee"; doesn't fully represent the team: there are 230 unique values for NOC; my assumption is that it's also a dynamic measure for an athlete;
 >   * 'Games' string, no null-values, represents the name of particular Olympic games; the dataset has 51 unique values for games; format is '1992 Summer' or '1998 Winter', so it combines year + season; there are 29 summer games and 22 winter games in the dataset;
->   * 'Year' integer, no null-values, represents a year of participation in Olympica games; the dataset has 25 unique years from 1896 to 2016; 
+>   * 'Year' integer, no null-values, represents a year of participation in Olympic games; the dataset has 25 unique years from 1896 to 2016; 
 >   * 'Season' string, no null-values, can take values "Winter" or "Summer"; 
 >   * 'City' string, no null-values, represents the location where the games took place; dataset has 42 unique values;, 
 >   * 'Sport' string, no null-values; represents a sport discipline a particular athlete was performing in; dataset has 66 unique sport disciplines; 
