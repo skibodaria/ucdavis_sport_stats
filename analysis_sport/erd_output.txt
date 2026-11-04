@@ -1,0 +1,56 @@
+digraph G {
+        graph [
+            nodesep=0.5;
+            rankdir="LR";
+            cencentrate=true;
+            splines="spline";
+            fontname="Helvetica";
+            pad="0.2,0.2",
+            label="",
+
+        ];
+
+        node [shape=plain, fontname="Helvetica"];
+        edge [
+            dir=both,
+            fontsize=12,
+            arrowsize=0.9,
+            penwidth=1.0,
+            labelangle=32,
+            labeldistance=1.8,
+            fontname="Helvetica"
+        ];
+
+	 athletes [ label=<
+        <table border="0" cellborder="1" cellspacing="0">
+        <tr><td bgcolor="pink"><b>athletes</b></td></tr>
+        
+		<tr><td port="id" align="left" cellpadding="5">id <font color="grey60">int64</font></td></tr>
+		<tr><td port="name" align="left" cellpadding="5">name <font color="grey60">str</font></td></tr>
+		<tr><td port="sex" align="left" cellpadding="5">sex <font color="grey60">str</font></td></tr>
+		<tr><td port="age" align="left" cellpadding="5">age <font color="grey60">float64</font></td></tr>
+		<tr><td port="height" align="left" cellpadding="5">height <font color="grey60">float64</font></td></tr>
+		<tr><td port="weight" align="left" cellpadding="5">weight <font color="grey60">float64</font></td></tr>
+		<tr><td port="team" align="left" cellpadding="5">team <font color="grey60">str</font></td></tr>
+		<tr><td port="noc" align="left" cellpadding="5">noc <font color="grey60">str</font></td></tr>
+		<tr><td port="games" align="left" cellpadding="5">games <font color="grey60">str</font></td></tr>
+		<tr><td port="year" align="left" cellpadding="5">year <font color="grey60">int64</font></td></tr>
+		<tr><td port="season" align="left" cellpadding="5">season <font color="grey60">str</font></td></tr>
+		<tr><td port="city" align="left" cellpadding="5">city <font color="grey60">str</font></td></tr>
+		<tr><td port="sport" align="left" cellpadding="5">sport <font color="grey60">str</font></td></tr>
+		<tr><td port="event" align="left" cellpadding="5">event <font color="grey60">str</font></td></tr>
+		<tr><td port="medal" align="left" cellpadding="5">medal <font color="grey60">str</font></td></tr>
+		</table>>];
+
+	 regions [ label=<
+        <table border="0" cellborder="1" cellspacing="0">
+        <tr><td bgcolor="lightblue"><b>regions</b></td></tr>
+        
+		<tr><td port="noc" align="left" cellpadding="5">noc <font color="grey60">str</font></td></tr>
+		<tr><td port="region" align="left" cellpadding="5">region <font color="grey60">str</font></td></tr>
+		<tr><td port="notes" align="left" cellpadding="5">notes <font color="grey60">str</font></td></tr>
+		</table>>];
+
+	 athletes:noc->regions:noc [ 
+                        arrowhead=none, arrowtail=none];
+	}
