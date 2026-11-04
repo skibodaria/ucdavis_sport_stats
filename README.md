@@ -1,6 +1,6 @@
 # Olympic Gamses UCDavis Capstone Project
 
-In the framework of [Coursera course from UCDavis "SQL for Data Science Capstone Project"](https://www.coursera.org/learn/sql-data-science-capstone?specialization=learn-sql-basics-data-science), I'm creating a historical analysis of the Olympic Games (1986-2006).
+In the framework of [Coursera course from UCDavis "SQL for Data Science Capstone Project"](https://www.coursera.org/learn/sql-data-science-capstone?specialization=learn-sql-basics-data-science), I'm creating a historical analysis of the Olympic Games (1896-2006).
 
 ## Research Question, Main Metrics, and Analytical Approach
 ### Research Question
